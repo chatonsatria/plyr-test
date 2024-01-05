@@ -1,10 +1,12 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import logo from "./logo.svg";
+import "./App.css";
+import VideoPlyr2 from "./plyr";
 
 function App() {
   return (
     <div className="App">
+      <VideoPlyr2 />
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
